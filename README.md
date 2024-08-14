@@ -79,6 +79,7 @@ After rebooting, click on the new kitty icon, maximize the window, and run nvim.
 ```bash
 nvim
 ```
+
 If you don't click the installation window, the installer might prompt you to press a key. In that case, press the space key. The configuration will continue and finish when it asks you to press enter.
 
 <div align="center">
@@ -111,7 +112,7 @@ If you run nvim without specifying a file name, you will access the LazyVim main
 
 LazyVim has six main keys defined for daily use that only work in NORMAL mode:
 
-Key `F1`: Inserts the 42 header, adds a line break, and switches the editor to Insert mode.
+**Key `F1`:** Inserts the 42 header, adds a line break, and switches the editor to Insert mode.
 
 <div align="center">
   <img src="img/008_header_42.png" alt="header_42">
@@ -119,7 +120,7 @@ Key `F1`: Inserts the 42 header, adds a line break, and switches the editor to I
 
 <br>
 
-Key `F2`: Formats the code for norminette.
+**Key `F2`:** Formats the code for norminette.
 
 <div align="center">
   <img src="img/010_example_code.png" alt="example_code">
@@ -128,7 +129,7 @@ Key `F2`: Formats the code for norminette.
 
 <br>
 
-Key `F3`: Runs norminette with the -R CheckForbiddenSourceHeader flags.
+**Key `F3`:** Runs norminette with the -R CheckForbiddenSourceHeader flags.
 
 <div align="center">
   <img src="img/011_errors_norminette.png" alt="errors_norminette">
@@ -136,7 +137,7 @@ Key `F3`: Runs norminette with the -R CheckForbiddenSourceHeader flags.
 
 <br>
 
-Key `F4`: Closes the active window / norminette / Closes nvim / Equivalent to :q.
+**Key `F4`:** Closes the active window / norminette / Closes nvim / Equivalent to :q.
 
 <div align="center">
   <img src="img/013_norminette_ok.png" alt="norminette_ok">
@@ -144,14 +145,13 @@ Key `F4`: Closes the active window / norminette / Closes nvim / Equivalent to :q
 </div>
 
 <br>
+<br>
+
+**Key `F5`:** Saves the active document / Equivalent to :w.
 
 <br>
 
-Key `F5`: Saves the active document / Equivalent to :w.
-
-<br>
-
-Key `F6`: Opens or closes the file explorer.
+**Key `F6`:** Opens or closes the file explorer.
 
 <div align="center">
   <img src="img/014_nvim_explorer.png" alt="nvim_explorer">
@@ -160,13 +160,14 @@ Key `F6`: Opens or closes the file explorer.
 <br>
 
 ## Tabs in LazyVim
-
 Each file opened will open in a different tab, allowing you to have multiple files open and switch between them easily. It also notifies you if you are trying to close a tab without saving changes.
 
 <div align="center">
   <img src="img/015_nvim_tabs.png" alt="nvim_explorer">
 </div>
+
 <br>
+
 <div align="center">
   <img src="img/016_nvim_save_alert.png" alt="nvim_explorer">
 </div>
@@ -178,7 +179,6 @@ Each file opened will open in a different tab, allowing you to have multiple fil
 ## Extras
 
 # LSD (LSDeluxe)
-
 The configuration includes the installation of LSD, which enhances terminal readability by taking advantage of the installed Nerd Fonts.
 
 The alias ll is equivalent to:
@@ -200,7 +200,6 @@ To view file and folder permissions in octal, use llo, which is an alias for:
 </div>
 
 # LazyGit
-
 LazyGit is ideal for those who prefer using the terminal but want a more comfortable and faster way to manage Git without typing all the commands manually. It is especially useful for developers working with large and complex repositories, as it simplifies visualizing changes and navigating between different sections of the repository.
 
 > Give it a try—you've got nothing to lose!
@@ -245,5 +244,37 @@ Kitty is an open-source project with active development, meaning it receives fre
 
 <br>
 
+### Example images:
 
+<div align="center">
+  <img src="img/017_kitty_example_01.png" alt="kitty_example">
+</div>
 
+### Image and Graphic Support:
+Kitty supports displaying images directly in the terminal, making it perfect for working with multimedia content. 
+
+Here's an example of how to display an image in Kitty:
+```bash
+picture imagen.jpg
+```
+
+<br>
+
+`picture`is an alias for:
+```bash
+kitty +kitten icat
+```
+
+### Tabs:
+Kitty allows the use of tabs within a single window, making it easier to organize work across multiple terminal sessions. With tabs, you can keep several processes or files open simultaneously and switch between them quickly and efficiently, without the need to open new windows. This optimizes screen space and enhances productivity when working in command-line environments.
+
+<div align="center">
+  <img src="img/017_kitty_example_02.png" alt="kitty_example_02">
+</div>
+
+# In Progress...
+Further improvements will be made to enhance the user experience and add more features to the script.
+
+### Thank you!
+
+[Return to index](#index)
