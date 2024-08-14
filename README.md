@@ -260,7 +260,7 @@ picture imagen.jpg
 
 <br>
 
-`picture`is an alias for:
+`picture` is an aliased to:
 ```bash
 kitty +kitten icat
 ```
