@@ -1,3 +1,11 @@
+<p align="right">
+  <a href="https://github.com/4ndymcfly/42env">
+    <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/es.png" alt="spanish Flag" width="16" height="12" style="vertical-align: middle;">
+     Spanish version
+  </a>
+</p>
+
+<br>
 
 <div align="center">
   <img src="img/42_env_banner.png" alt="header_logo">
