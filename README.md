@@ -95,7 +95,7 @@ Wait a few moments, and LazyVim will be ready and configured to start.
   <img src="img/006_lazyvim_install_3.png" alt="lazyvim_install_3">
 </div>
 <br>
-Press F4 to close nvim (keyboard shortcut already configured).
+Press `F4` to close nvim (keyboard shortcut already configured).
 
 <br>
 
@@ -111,41 +111,52 @@ If you run nvim without specifying a file name, you will access the LazyVim main
 
 LazyVim has six main keys defined for daily use that only work in NORMAL mode:
 
-Key F1: Inserts the 42 header, adds a line break, and switches the editor to Insert mode.
+Key `F1`: Inserts the 42 header, adds a line break, and switches the editor to Insert mode.
 
 <div align="center">
   <img src="img/008_header_42.png" alt="header_42">
 </div>
+
 <br>
-Key F2: Formats the code for norminette.
+
+Key `F2`: Formats the code for norminette.
 
 <div align="center">
   <img src="img/010_example_code.png" alt="example_code">
   <img src="img/012_fix_errors.png" alt="fix_errors">
 </div>
+
 <br>
-Key F3: Runs norminette with the -R CheckForbiddenSourceHeader flags.
+
+Key `F3`: Runs norminette with the -R CheckForbiddenSourceHeader flags.
 
 <div align="center">
   <img src="img/011_errors_norminette.png" alt="errors_norminette">
 </div>
+
 <br>
-Key F4: Closes the active window / norminette / Closes nvim / Equivalent to :q.
+
+Key `F4`: Closes the active window / norminette / Closes nvim / Equivalent to :q.
 
 <div align="center">
   <img src="img/013_norminette_ok.png" alt="norminette_ok">
   <img src="img/012_fix_errors.png" alt="fix_errors">
 </div>
-<br>
-<br>
-Key F5: Saves the active document / Equivalent to :w.
 
 <br>
-Key F6: Opens or closes the file explorer.
+
+<br>
+
+Key `F5`: Saves the active document / Equivalent to :w.
+
+<br>
+
+Key `F6`: Opens or closes the file explorer.
 
 <div align="center">
   <img src="img/014_nvim_explorer.png" alt="nvim_explorer">
 </div>
+
 <br>
 
 ## Tabs in LazyVim
@@ -159,7 +170,9 @@ Each file opened will open in a different tab, allowing you to have multiple fil
 <div align="center">
   <img src="img/016_nvim_save_alert.png" alt="nvim_explorer">
 </div>
-<br> 
+
+<br>
+
 > **Note:** All other vim shortcuts work the same.
 
 ## Extras
