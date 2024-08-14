@@ -261,7 +261,7 @@ Kitty supports displaying images directly in the terminal, making it perfect for
 
 Here's an example of how to display an image in Kitty:
 ```bash
-picture imagen.jpg
+picture photo.jpg
 ```
 
 <br>
