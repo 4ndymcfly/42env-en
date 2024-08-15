@@ -11,7 +11,7 @@
 
 <h1 align="center">42 ENVironment Configuration Script</h1>
 
-<p align="center">Automates the installation and configuration of the basic environment for programming in the 42 cursus.</p>
+<p align="center">Automates the installation and configuration of the basic environment to get started in the 42 cursus.</p>
 
 <p align="center">Tested on <a href="https://releases.ubuntu.com/jammy/">Ubuntu 22.04 LTS</a></p>
 
