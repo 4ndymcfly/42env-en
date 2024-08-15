@@ -5,14 +5,17 @@
   </a>
 </p>
 
-<div align="center">
+<p align="center">
   <img src="img/42_env_banner.png" alt="header_logo">
-</div>
+</p>
 
-# 42 ENVironment Configuration Script
-Automates the installation and configuration of the basic environment for programming in the 42 cursus.
-|---|
-|<p align="center">Tested on [Ubuntu 22.04 LTS](https://releases.ubuntu.com/jammy/)</p>|
+<h1 align="center">42 ENVironment Configuration Script</h1>
+
+<p align="center">Automates the installation and configuration of the basic environment for programming in the 42 cursus.</p>
+
+<p align="center">Tested on <a href="https://releases.ubuntu.com/jammy/">Ubuntu 22.04 LTS</a></p>
+
+<br>
 
 <!-- Table of Contents -->
 # Table of Contents
