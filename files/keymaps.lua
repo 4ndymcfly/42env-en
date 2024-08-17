@@ -23,4 +23,4 @@ vim.api.nvim_set_keymap('n', '<F4>', ':q<CR>', { noremap = true, silent = true }
 vim.api.nvim_set_keymap('n', '<F5>', ':w<CR>', { noremap = true, silent = true })
 
 -- Map F6 to open/close the NeoTree explorer in the current working directory (cwd)
-vim.api.nvim_set_keymap('n', '<F6>', '<cmd>Neotree toggle current<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<F6>', '<cmd>Neotree toggle<CR>', { noremap = true, silent = true })
