@@ -89,7 +89,7 @@ After rebooting, click on the new kitty icon, maximize the window, and run nvim.
 nvim
 ```
 
-If you don't click the installation window, the installer might prompt you to press a key. In that case, press the space key. The configuration will continue and finish when it asks you to press enter.
+If you don't click on the installation window, the installer might prompt you to press a key. In that case, press the space key. The configuration will continue and finish when it asks you to press enter.
 
 <div align="center">
   <img src="img/004_lazyvim_install.png" alt="lazyvim_install">
@@ -169,7 +169,7 @@ LazyVim has six main keys defined for daily use that only work in NORMAL mode:
 <br>
 
 ## Tabs in LazyVim
-Each file opened will open in a different tab, allowing you to have multiple files open and switch between them easily. It also notifies you if you are trying to close a tab without saving changes.
+Every time you open a new file, it will open in a different tab, allowing you to have multiple files open and switch between them easily. It also notifies you if you are trying to close a tab without saving changes.
 
 <div align="center">
   <img src="img/015_nvim_tabs.png" alt="nvim_explorer">
@@ -275,7 +275,7 @@ kitty +kitten icat
 ```
 
 ### Tabs:
-Kitty allows the use of tabs within a single window, making it easier to organize work across multiple terminal sessions. With tabs, you can keep several processes or files open simultaneously and switch between them quickly and efficiently, without the need to open new windows. This optimizes screen space and enhances productivity when working in command-line environments.
+Kitty allows the use of tabs within a single window, making it easier to organize work across multiple terminal sessions. With tabs, you can keep several processes or files simultaneously opened, being able to switch between them quickly and efficiently without the need to open new windows. This optimizes screen space and enhances productivity when working in command-line environments.
 
 <div align="center">
   <img src="img/017_kitty_example_02.png" alt="kitty_example_02">
