@@ -100,7 +100,10 @@ If you don't click on the installation window, the installer might prompt you to
   <img src="img/005_lazyvim_install_2.png" alt="lazyvim_install_2">
 </div>
 <br>
+
 Wait a few moments, and LazyVim will be ready and configured to start.
+
+<br>
 
 <div align="center">
   <img src="img/006_lazyvim_install_3.png" alt="lazyvim_install_3">
