@@ -57,7 +57,8 @@ This script installs the following software if it is not already installed:
 
 ## Recommendations
 
-**IMPORTANT:** Before starting the process, it is recommended to create a backup or snapshot of your current virtual machine state.
+> [!WARNING]
+> Before starting the process, it is recommended to create a backup or snapshot of your current virtual machine state.
 This script is intended for use on your personal computer. I will soon publish a version for limited users with compatibility across a wider range of distributions.
 
 ## Installation
