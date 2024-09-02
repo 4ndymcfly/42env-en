@@ -187,7 +187,8 @@ Every time you open a new file, it will open in a different tab, allowing you to
 
 <br>
 
-> **Note:** All other vim shortcuts work the same.
+> [!NOTE]
+> All other vim shortcuts work the same.
 
 ## Extras
 
